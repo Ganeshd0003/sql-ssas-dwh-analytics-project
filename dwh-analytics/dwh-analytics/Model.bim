@@ -272,6 +272,40 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "DWH_Total_Sales",
+            "expression": " SUM(fact_sales[sales_amount])"
+          },
+          {
+            "name": "DWH_Total_Quantity_Salesd",
+            "expression": "SUM(fact_sales[quantity])"
+          },
+          {
+            "name": "DWH_Min_sales",
+            "expression": "MIN(fact_sales[sales_amount])"
+          },
+          {
+            "name": "DWH_Max_Sales",
+            "expression": " MAX(fact_sales[sales_amount])"
+          },
+          {
+            "name": "DWH_Avg_Sales",
+            "expression": " ROUND( AVERAGE(fact_sales[sales_amount]),2)"
+          },
+          {
+            "name": "DWH_Total_Customers",
+            "expression": " count(dim_customers[customer_id])"
+          },
+          {
+            "name": "DWH_Max_Price",
+            "expression": " MAX(fact_sales[price])"
+          },
+          {
+            "name": "DWH_Min_Price",
+            "expression": "MIN(fact_sales[price])"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
