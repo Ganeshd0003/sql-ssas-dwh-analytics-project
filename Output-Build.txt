@@ -1,6 +1,0 @@
-﻿Build started at 23:36...
------- Build started: Project: dwh-analytics, Configuration: Development x86 ------
-========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
-========== Build completed at 23:36 and took 04.260 seconds ==========
-========== Deploy: 0 succeeded, 1 failed, 0 skipped ==========
-========== Deploy completed at 23:36 and took 04.260 seconds ==========
